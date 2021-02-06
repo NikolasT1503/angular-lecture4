@@ -1,1 +1,25 @@
-<p>mod1 works!</p>
+<p>{{date|date}}</p>
+
+<p>{{date|date: "dd-mm-yyyy"}}</p>
+<p>{{date|date: "mm-yyyy"}}</p>
+<p>{{date|date: "dd.mm.yyyy hh:mm:ss"}}</p>
+<p>{{date|date: "dd-mm-yyyy HH-MM"}}</p>
+<p>{{date|date: "dd-MM-YY"}}</p>
+<p>{{dateNow}}</p>
+
+<p>{{pi|number: '3.0-2'}}</p>
+<p>{{money|currency: 'code':'EUR'}}</p>
+<p>{{money|currency: 'USD':'symbol'}}</p>
+<p>{{money|currency: 'RUB':'symbol-narrow'}}</p>
+<p>{{money|currency: 'CAD':'канада'|titlecase|slice: 2:4}}</p>
+<p>{{money|currency: 'RUB':'symbol-narrow':'5.4-5'}}</p>
+
+<p>{{perc|percent: '2.2'}}</p>
+
+<p>
+    {{'+7'+' ('+(phones[0]| slice:0:3)+') '+(phones[0]|slice:3:6)+'-'+(phones[0]|slice:6:8)+'-'+(phones[0]|slice:8:10)}}
+</p>
+<p>{{phones|phone}}</p>
+<p>{{getPhones}}</p>
+<p>{{phone|async}}</p>
+<p>{{phone|async}}</p>
